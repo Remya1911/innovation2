@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	char str[100],def[100];
+	int i;
+	scanf("%s",str);
+	for(i=0;str[i]!='\0';i++)
+	{
+		def[i]=str[i];
+	}
+	printf("%s",str);
+	// your code goes here
+	return 0;
+}
