@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(void)
+{
+int first,last,flag,i,j;
+scanf("%d",&first);
+scanf("%d",&last);
+for(i=first;i<=last;i++)
+{
+flag=0;
+for(j=2;j<=i/2;j++)
+{
+if((i%j)==0){
+flag++;
+break;
+}
+}
+if(flag==0)  //if(!flag)
+printf("%d ",i); //u need to print i
+}
+return 0;
+}
